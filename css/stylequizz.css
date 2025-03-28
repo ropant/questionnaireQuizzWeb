@@ -1,0 +1,116 @@
+/* styleQuiz.css */
+
+/* Réglages de base du body */
+body {
+    background-color: #f8f0e3; /* Teinte douce et vintage */
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Style du header et du menu de navigation */
+header {
+    background-color: #bfae91; /* Couleur chaude vintage */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header ul a:hover {
+    color: rgb(195, 120, 21);
+}
+
+header ul li {
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+/* Lien dans le menu */
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style de la section des questions */
+#questions {
+    list-style: none;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 2px solid #bfae91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#questions li {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #5a4637;
+}
+
+#questions ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+#questions ul li {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #333;
+}
+
+#questions ul li.bonne-reponse {
+    color: #28a745; /* Couleur verte pour indiquer la bonne réponse */
+    font-weight: bold;
+}
+
+/* Style des liens */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Style du bouton */
+button {
+    display: block;
+    margin: 20px auto; /* Centre horizontalement et ajoute un espace vertical */
+    background-color: #bfae91;
+    color: #fff;
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #a6937c;
+    transform: scale(1.02);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(191, 174, 145, 0.5);
+}

@@ -1,0 +1,48 @@
+/* style.css */
+
+/* Réglages de base du body */
+body {
+    background-color: #f8f0e3; /* Teinte douce et vintage */
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style de la liste des questionnaires */
+#questionnaire {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
+
+/* Style des éléments de la liste */
+#questionnaire li {
+    background-color: #fff;
+    border: 2px solid #bfae91;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#questionnaire li:hover {
+    background-color: #e0d8c3;
+    transform: scale(1.05);
+}
+
+/* Style des liens */
+#questionnaire li a {
+    text-decoration: none;
+    color: #5a4637;
+    font-size: 1.2em;
+}
+
+#questionnaire li a:hover {
+    color: #bfae91;
+}

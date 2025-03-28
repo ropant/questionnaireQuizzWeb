@@ -1,0 +1,102 @@
+/* Réglages de base du body */
+body {
+    background-color: #f8f0e3; /* Teinte douce et vintage */
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style du formulaire */
+.formulaire {
+    background-color: #fff;
+    border: 2px solid #bfae91;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Titre du formulaire */
+.head-formulaire h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #5a4637;
+}
+
+/* Style des champs de saisie */
+.input input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bfae91;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Style du bouton de soumission */
+button[type="submit"] {
+    background-color: #bfae91;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #a39480;
+}
+
+/* Style des liens */
+a {
+    color: #5a4637;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}/* Style du conteneur du message */
+/* Ajoutez ou placez ce code dans styleConnexion.css */
+
+#div-message {
+    background-color: #fff;
+    border: 2px solid #bfae91;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#div-message p {
+    font-size: 1.2em;
+    color: #5a4637;
+    margin: 0 0 15px;
+}
+
+#div-message a {
+    display: inline-block;
+    background-color: #bfae91;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#div-message a:hover {
+    background-color: #a6937c;
+    transform: scale(1.05);
+}
